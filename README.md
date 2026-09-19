@@ -9,7 +9,7 @@
 
 ## Overview
 
-This repository contains the trained model and inference/training code for a 7-class auroral image classifier applied to ASC data from the Indian Antarctic Stations **Maitri** (70.77°S, 11.74°E) and **Bharati**. The classifier enables automated, high-throughput labelling of large ASC image archives for space physics research, specifically targeting magnetosphere-ionosphere coupling and space weather events.
+This repository contains the trained model and inference/training code for a 7-class auroral image classifier applied to ASC data from the Indian Antarctic Stations **Maitri** (70.77°S, 11.74°E). The classifier enables automated, high-throughput labelling of large ASC image archives for space physics research, specifically targeting magnetosphere-ionosphere coupling and space weather events.
 
 ### Auroral and Non-Auroral Categories
 
