@@ -1,6 +1,6 @@
 # Aurora Image Classifier — VGG16-CNN
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22842001.svg)](https://doi.org/10.5281/zenodo.22842001)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Automated classification of All-Sky Camera (ASC) auroral images from Indian Antarctic Stations using a fine-tuned VGG16 convolutional neural network.**
