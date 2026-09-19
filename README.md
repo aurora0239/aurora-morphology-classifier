@@ -71,7 +71,7 @@ pip install -r requirements.txt
 ### 3. Download the trained model
 
 The trained `.keras` model file is hosted separately due to its size.  
-**Download**: [Link to model — Google Drive / Zenodo / institutional repository]  
+**Download**: [[Link to model — Google Drive / Zenodo / institutional repository](https://drive.google.com/drive/folders/1mQVQBvWsNpsOO4_GhMk9Mkwg_-rMEXHy?usp=sharing)]  
 Place the downloaded file at `./model/vgg16_model_updated.keras`.
 
 ### 4. Prepare your data
