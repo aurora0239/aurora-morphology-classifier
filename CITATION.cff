@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+
+title: "Aurora Image Classifier — VGG16-CNN for Indian Antarctic All-Sky Camera Images"
+version: "1.0.0"
+date-released: "2024-07-18"
+
+authors:
+  - family-names: "SunilKumar"
+    # given-names: "Sunil Kumar"       # ← Add your given name(s) here
+    # affiliation: "National Centre for Polar and Ocean Research, Goa"       # ← Add your institution here
+    # orcid: "https://orcid.org/0000-0000-0000-0000"  # ← Add ORCID if available
+
+abstract: >
+  A fine-tuned VGG16 convolutional neural network for automated 7-class
+  Classification of All-Sky Camera (ASC) auroral images from the Indian
+  Antarctic Stations Maitri (70.77°S, 11.74°E). Classes include Arc, Discrete, 
+  Diffused, Cloudy, Moon, Twilight, and No_Aurora. The model is trained on ImageNet 
+  pre-trained VGG16 features with a custom GlobalAveragePooling + softmax head, 
+  achieving a high macro F1-score on held-out validation data.
+
+repository-code: "https://github.com/<your-username>/aurora-vgg16-classifier"
+url: "https://github.com/<your-username>/aurora-vgg16-classifier"
+license: MIT
+
+keywords:
+  - aurora
+  - all-sky camera
+  - VGG16
+  - deep learning
+  - image classification
+  - space physics
+  - ionosphere
+  - Antarctica
+  - Maitri
+  - Indian Antarctic Programme
