@@ -29,7 +29,7 @@ This repository contains the trained model and inference/training code for a 7-c
 
 To comply with FAIR data principles, the trained model weights and a minimal sample dataset for reproducibility are hosted on Zenodo. 
 
-*   **Trained Model Weights (`.keras`):** [Download from Zenodo](https://doi.org/10.5281/zenodo.XXXXXXX)
+*   **Trained Model Weights (`.keras`):** [Download from Zenodo](https://doi.org/10.5281/zenodo.22842180)
 *   **Raw ASC Data:** The full all-sky camera dataset from the Indian Antarctic Programme used in this study is available upon request from the National Centre for Polar and Ocean Research (NCPOR) data archive at [Link to institutional data portal].
 
 ---
