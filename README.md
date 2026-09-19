@@ -8,7 +8,7 @@
 
 This repository contains the trained model and inference/training code for a 7-class auroral image classifier applied to ASC data from the Indian Antarctic Stations **Maitri** (70.77°S, 11.74°E) and **Bharati** (69.41°S, 76.19°E). The classifier enables automated, high-throughput labelling of large ASC image archives for space physics research.
 
-### Auroral Categories
+### Auroral  and Non-Auroral Categories
 
 | Label | Description |
 |---|---|
@@ -113,27 +113,6 @@ python aurora_vgg16_classifier.py
 ```
 
 Annotated images are saved to `SAVE_DIR`; predictions are saved as a CSV to `CSV_OUTPUT`.
-
----
-
-## Outputs
-
-| Output | Description |
-|---|---|
-| Annotated `.jpg` images | Original ASC images labelled with predicted class and confidence |
-| `model_predictions.csv` | Per-image: datetime, predicted class, class value, confidence |
-| `history.csv` | Epoch-by-epoch training accuracy and loss |
-| Confusion matrix plots | Normalised and raw confusion matrices |
-| ROC curve | Binary ROC for the classifier |
-| Performance box plot | Per-class Precision, Recall, F1-Score with macro averages |
-
----
-
-## Red-Arc / SAR Candidate Detection
-
-A post-prediction module (`extract_consistent_red_arcs`) screens Arc-labelled images for red-channel dominance (R > 1.1 × G and R > 1.1 × B) and temporal persistence (≥ 2 min continuous) — useful for identifying Stable Auroral Red (SAR) arc or STEVE candidate events. Matching images are copied into date-stamped folders under `output/red_arcs/`.
-
----
 
 ## Citation
 
